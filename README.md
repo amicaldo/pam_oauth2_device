@@ -59,6 +59,7 @@ PasswordAuthentication no
 ChallengeResponseAuthentication yes
 AuthenticationMethods keyboard-interactive
 UsePAM yes
+KbdInteractiveAuthentication yes
 ```
 
 It is also possible to combine multiple authentication methods. For example,
@@ -76,7 +77,7 @@ Match User ubuntu
 Restart the service after changing the sshd configuration.
 
 ```bash
-systemctl restart sshd
+systemctl restart ssh
 ```
 
 ## Development
