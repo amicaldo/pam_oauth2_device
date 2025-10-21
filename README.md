@@ -57,7 +57,6 @@ Edit `/etc/ssh/sshd_config`
 ```sshd-config
 PasswordAuthentication no
 ChallengeResponseAuthentication yes
-AuthenticationMethods keyboard-interactive
 UsePAM yes
 KbdInteractiveAuthentication yes
 ```
