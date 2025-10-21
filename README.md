@@ -61,6 +61,8 @@ UsePAM yes
 KbdInteractiveAuthentication yes
 ```
 
+You might want to add `PermitRootLogin yes` to allow login with the root account.
+
 It is also possible to combine multiple authentication methods. For example,
 with `AuthenticationMethods publickey,keyboard-interactive`
 both public key and interactive authentication are required.
